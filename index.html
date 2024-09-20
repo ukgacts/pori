@@ -851,12 +851,30 @@ footer a {
 
 
 
+/* Halfscreen */
+
+
+.outer {
+
+
+height: 320px; /* adjust to your needs */
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
 
 
 
+    .outer amp-img {  
+
+flex-basis: 0;
+flex-grow: 1;
+}
 
 
-
+/* Halfscreen--end */
 
 
 
@@ -930,7 +948,7 @@ footer a {
 
 
 
-                  <!----  First  Page-->
+                  <!----  Intro  Page-->
 
                   <amp-story-page id="page-shosh">
 
@@ -1067,230 +1085,158 @@ footer a {
 
 
 
-
-
-
-
-
-                  <!----  First  Page-->
+                  <!----  Travelling  Page-->
 
                   <amp-story-page id="page-shosh">
 
-                    <amp-story-grid-layer  template="vertical" style="padding: 0; background: white;  align-content:center;">
-        <div  class="outer" style="  height: 320px; /* adjust to your needs */
-        display: flex;
-        flex-wrap: wrap;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;"> 
-
-            <amp-img   style="flex-basis: 0;
-  flex-grow: 1;" 
-  width="627"
-            height="640"
-            layout="fill"
-            src="assets/images/fest.jpg" >
-       </amp-img>
-
-        </div>
+                    <amp-story-grid-layer template="fill" style="padding: 8px;">
+                        <amp-video autoplay loop width="400" height="750" poster="assets/images/dj.png" layout="responsive"                    cache="google">
+                        <source src="assets/video/pori2.mp4" type="video/mp4">
+                        </amp-story-grid-layer>
                         
-        
-        <div class="outer" style="  height: 320px; /* adjust to your needs */
-        display: flex;
-        flex-wrap: wrap;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;">  
-                      
-        
-                        <amp-img  width="627"  style="flex-basis: 0;
-                        flex-grow: 1;" 
-                        
-                                  height="640"
-                        layout="responsive" 
-                        src="assets/images/medium_finding-dunes-in-finland-in-the-city-of-pori-dau2_image.jpg" >
-                   </amp-img>
-   
-                </div>
-
-
-
-                
-        
-                    </amp-story-grid-layer>
-        
-      
+                 
                     
-            <amp-story-grid-layer template="vertical" style="align-content:end; padding:0; ">
-
-                
-
-
-               
-
-               
-                <div class="description" style="background: rgba(0, 0, 0, 0.52); padding: 24px;
-                text-align: left;
-                padding-bottom: 100px;
-                margin: 0 auto;
-                border-radius: 4px; position: absolute;
-                bottom: 0%;">
-
-                <h6 style="font-size: 1.875rem;
-                letter-spacing: 0.9px;
-                text-transform: uppercase; color:red; margin-bottom: 20px;">Travelling Options</h6>
-<span>From Chelsinki to Pori</span>
-
-                </div>
-
-
-
-
-
-            </amp-story-grid-layer>
-        
-
-                    
-            <amp-story-page-attachment layout="nodisplay" class="attachment;" theme="light">
+                        <amp-story-page-attachment layout="nodisplay" class="attachment;" theme="light">
 
 
          
 
             
-                <div class="attachment_bg-grey">
-    
-                    <amp-img  width="720" height="300"  
-                    layout="responsive" 
-                    src="assets/images/fest.jpg" >
-               </amp-img>
-    
-              
-                    <div class="attachment_supporting-text pr1 pl1  pb1" >
-    
-                        <h2>By Train:</h2>
-                        
-                        <p>
-                      <strong> Overview: </strong>  
-                        
-                        
-                        The train from Helsinki to Pori is a comfortable and eco-friendly option, operated by VR (the Finnish railway company).
-                        <br> 
-                       
-                        <strong> Duration: </strong> 
-                     
-                        
-                        Around 3.5 hours with direct trains.
-    
-                        <br>
-                       <strong> Cost:  </strong>
-    
-                       
-                        
-                        Typically ranges from €15-€30 depending on the time of booking and the train class.  <br>
-                        
-                        <strong>     Experience: 
-                        </strong>
-                        
-                    
-                        Relaxed journey with beautiful countryside views. Free Wi-Fi, dining car, and charging ports available onboard.
-                            
-    
-    
-                        </p>
-    
-    
-    
-    
-    
-                          <h2> By Car (Car Hire):</h2>  
-    
-                          <p> 
-                            
-                            <strong> Overview:</strong>
+                            <div class="attachment_bg-grey">
                 
+                                <amp-img  width="720" height="300"  
+                                layout="responsive" 
+                                src="assets/images/fest.jpg" >
+                           </amp-img>
+                
+                          
+                                <div class="attachment_supporting-text pr1 pl1  pb1" >
+                
+                                    <h2>By Train:</h2>
+                                    
+                                    <p>
+                                  <strong> Overview: </strong>  
+                                    
+                                    
+                                    The train from Helsinki to Pori is a comfortable and eco-friendly option, operated by VR (the Finnish railway company).
+                                    <br> 
+                                   
+                                    <strong> Duration: </strong> 
+                                 
+                                    
+                                    Around 3.5 hours with direct trains.
+                
+                                    <br>
+                                   <strong> Cost:  </strong>
+                
+                                   
+                                    
+                                    Typically ranges from €15-€30 depending on the time of booking and the train class.  <br>
+                                    
+                                    <strong>     Experience: 
+                                    </strong>
+                                    
+                                
+                                    Relaxed journey with beautiful countryside views. Free Wi-Fi, dining car, and charging ports available onboard.
+                                        
+                
+                
+                                    </p>
+                
+                
+                
+                
+                
+                                      <h2> By Car (Car Hire):</h2>  
+                
+                                      <p> 
+                                        
+                                        <strong> Overview:</strong>
                             
-                            
-                            Renting a car gives more flexibility to explore other towns along the way.<br>
-                             <strong> Duration:</strong>  The drive from Helsinki to Pori is approximately 3 hours (242 km).
-                             <br>    <strong>Car Rental Options: </strong>  Hertz, Avis, Europcar, and Sixt offer rentals in Helsinki.
-                             <br>    <strong> Route:</strong>  Via the E12 and E8 highways, passing through charming Finnish landscapes.
-                             <br>   <strong> Cost: </strong> Car rental prices can vary from €40-€80 per day, plus fuel.
-                            
-    
-    
-                        </p>
-    
-    <h2>  By Bus:
-    </h2>
-    
+                                        
+                                        
+                                        Renting a car gives more flexibility to explore other towns along the way.<br>
+                                         <strong> Duration:</strong>  The drive from Helsinki to Pori is approximately 3 hours (242 km).
+                                         <br>    <strong>Car Rental Options: </strong>  Hertz, Avis, Europcar, and Sixt offer rentals in Helsinki.
+                                         <br>    <strong> Route:</strong>  Via the E12 and E8 highways, passing through charming Finnish landscapes.
+                                         <br>   <strong> Cost: </strong> Car rental prices can vary from €40-€80 per day, plus fuel.
+                                        
+                
+                
+                                    </p>
+                
+                <h2>  By Bus:
+                </h2>
+                
+                                       
+                
+                                    <p>
+                                        <strong> 	Overview: </strong>Buses are another affordable option, with connections provided by Onnibus and Matkahuolto.
+                                            <strong> 	Duration:</strong> Around 4-4.5 hours.
+                                                <strong> Cost: </strong> Around €10-€20.
+                                                    <strong> Experience: </strong> Budget-friendly, with some buses offering free Wi-Fi and power outlets.
+                                        
+                
+                
+                                    </p>
+                
+                
+                                </div>
+                
                            
-    
-                        <p>
-                            <strong> 	Overview: </strong>Buses are another affordable option, with connections provided by Onnibus and Matkahuolto.
-                                <strong> 	Duration:</strong> Around 4-4.5 hours.
-                                    <strong> Cost: </strong> Around €10-€20.
-                                        <strong> Experience: </strong> Budget-friendly, with some buses offering free Wi-Fi and power outlets.
+                
+                
+                        </div>
+                
+                           
+                
+                            <div class="attachment_footer">
+                  
+                                <div class="footer__row">
+                                  <div class="footer__column footer__column--top">
+                                   
+                                     
+                                          <p>
+                                            
+                                            Yo Deejay is a UK-based agency specializing in DJ bookings, featuring some of the hottest talents in bass music, EDM, and UK garage. 
+                                            
+                                         
+                                        
+                                        
+                                          </p></span>
+                                      </div>
+                
+                
+                                  </div>
                             
-    
-    
-                        </p>
-    
-    
-                    </div>
-    
-               
-    
-    
-            </div>
-    
-               
-    
-                <div class="attachment_footer">
-      
-                    <div class="footer__row">
-                      <div class="footer__column footer__column--top">
+                      
+                            
+                                  <div class="footer__column footer__column--bottom">
+                                  
+                                    
+                                
+                            
+                              
+                            
+                            
+                            
+                            <span>
+                              
+                              <amp-img src="assets/logo-footer.png" class="hs-image-widget " width="350" height="44" style="max-width: 100%; height: auto;"  >
+                            </span>
                        
-                         
-                              <p>
-                                
-                                Yo Deejay is a UK-based agency specializing in DJ bookings, featuring some of the hottest talents in bass music, EDM, and UK garage. 
-                                
                              
                             
-                            
-                              </p></span>
-                          </div>
-    
-    
-                      </div>
-                
-          
-                
-                      <div class="footer__column footer__column--bottom">
-                      
-                        
-                    
-                
-                  
+                                  <span ><p>© 2024  YO deejay</p></span></div>
+                                  
+                                </div>
                 
                 
                 
-                <span>
-                  
-                  <amp-img src="assets/logo-footer.png" class="hs-image-widget " width="350" height="44" style="max-width: 100%; height: auto;"  >
-                </span>
-           
-                 
                 
-                      <span ><p>© 2024  YO deejay</p></span></div>
-                      
-                    </div>
-    
-    
-    
-    
-            </amp-story-page-attachment>
-    
+                        </amp-story-page-attachment>
+                
+                
         
                 </amp-story-page>
 
@@ -1298,8 +1244,241 @@ footer a {
                 <!---- Page-->
 
 
+                                      <!----  Sting  Page-->
+
+                                      <amp-story-page id="page-shosh">
+
+                                        <amp-story-grid-layer class="video container" template="fill">
+                            
+                                            <amp-img  width="720" height="1280"
+                                                 layout="fill" 
+                                                 src="assets/images/Sting.jpg" >
+                                            </amp-img>
+                            
+                                                
+                            
+                                        </amp-story-grid-layer>
+                            
+                                        
+                            
+                               
+                            
+                                      
+                            
+                            
+                                    
+
+
+                                                             
+                                        <amp-story-grid-layer template="vertical" style="align-content:end; padding:0;">
+                            
+                                            
+<div>           <h4 style="line-height: 100%; font-size:0.875rem;
+    letter-spacing: 0.7px;
+    text-transform: uppercase; font-weight:600; top: 72%;
+  position: absolute;
+  left: 4%;">   
+                  STING
+    </h4> 
+
+                                            <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content; top: 76%; position: absolute;" >
+        
+                                                <h3 style="
+                                                font-size: 2.375rem; text-shadow: 0 0 .2em rgba(0,0,0,.5); padding-bottom: 0.313rem;"> Pori Jazz Festival</h3>
+                        
+                                                   
+                                                        
+                        </div>
+                                                        
+                    </div>
+              
+                                 
+                            
+                              
+                                            
+                            
+                                    
+                            
+                                           
+                            
+                                        </amp-story-grid-layer>
+                            
+                            
+                            
+                            
+                            
+                                    </amp-story-page>
+                
+                
+                            
+                                    <!---- Page-->
+
+
+
         
 
+
+                  <!----  HalfScreen  Page-->
+
+                  <amp-story-page id="page-shosh">
+
+                    <amp-story-grid-layer  template="vertical" style="padding: 0; background: white;  align-content:center;">
+        <div  class="outer" > 
+
+
+<amp-img  width="627"  
+
+          height="640"
+layout="responsive" 
+src="assets/images/festival2.webp" >
+</amp-img>
+
+        </div>
+                     
+        <div class="outer" >  
+                      
+                      <amp-img   
+                      width="627"
+                                height="640"
+                                layout="responsive"
+                                src="assets/images/fest.jpg" >
+                           </amp-img>
+                </div>
+        
+                    </amp-story-grid-layer>
+
+
+
+        
+                    <amp-story-grid-layer template="vertical" style="align-content:end; padding: 0; ">
+        
+                        
+        
+               
+                        
+        
+                        <div class="text-box-gradient " >
+        
+
+
+
+
+        <h3 style="font-size: 4rem;
+        font-size: 2.375rem; padding-bottom: 20px;text-shadow: 0 0 .2em rgba(0,0,0,.5);">  Pori Jazz Festival</h3>
+
+<h4 style="line-height: 100%; font-size:0.875rem;
+    letter-spacing: 0.7px;
+    text-transform: uppercase; font-weight:600; 
+ ">   
+                 EXPLORING PORI
+    </h4>                 
+        
+                        </div>
+        
+                       
+        
+                    </amp-story-grid-layer>
+        
+                    <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
+       
+                        <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content;" >
+            
+    
+                            <h4 style="line-height: 100%; font-size:0.875rem;
+                            letter-spacing: 0.7px;
+                            text-transform: uppercase; font-weight:600;">   
+                                         
+                                One of the oldest and most prestigious jazz festivals in Europe, attracting international artists and a diverse crowd.
+
+                            </h4>
+                                         
+                                    
+    </div>
+                                    
+
+                    </amp-story-grid-layer>
+        
+
+
+
+
+        
+                </amp-story-page>
+
+
+                <!---- Page-->
+
+
+
+
+
+
+
+
+
+
+
+
+                  <!----  Festival  Page-->
+
+                  <amp-story-page id="page-shosh">
+
+                    <amp-story-grid-layer class="video container" template="fill">
+        
+                        <amp-img  width="720" height="1280"
+                             layout="fill" 
+                             src="assets/images/festival.webp" >
+                        </amp-img>
+        
+                            
+        
+                    </amp-story-grid-layer>
+        
+                    
+        
+           
+        
+                    <amp-story-grid-layer template="vertical" style="align-content:end; padding: 0; ">
+        
+                        
+        
+               
+                        
+        
+                        <div class="text-box-gradient " >
+        
+
+
+<span class="text-box-subtitle">   
+                             
+            Exploring Pori
+        </span>
+
+        <h3  class="text-box-title" >
+                                      Pori Jazz Festival
+              
+                                  </h3>
+                            
+                            
+        
+                        </div>
+        
+                       
+        
+                    </amp-story-grid-layer>
+        
+        
+                
+                       
+     
+        
+        
+        
+                </amp-story-page>
+
+
+        
+                <!---- Page-->
 
 
 
@@ -1457,51 +1636,70 @@ privacy, especially if you're traveling in a group. <br>
 
 
 
-                          <!----  First  Page-->
+
+
+                          <!----  Halfscreen Page-->
 
                           <amp-story-page id="page-shosh">
 
-                            <amp-story-grid-layer  template="vertical" style="padding: 0; background-image: linear-gradient(rgba(243, 240, 237, 1), rgba(243, 240, 237, 1)) ;">
-                
-                                <amp-img  width="720" height="550"  style="border-bottom: solid 0.188rem #f94923;"
-                                     layout="responsive" 
-                                     src="assets/images/90.png" >
-                                </amp-img>
-                
-                                   
-                                <div class="text-box" style="padding-top: 15px;" >
-                
-            
-            
-                                    <h4 style="font-size: 1rem;
-                                    text-transform: uppercase;
-                                    line-height: 110%; font-weight:600; padding-bottom: 20px;">   
-                                                Exploring Pori
-                                    </h4>
-                                        
-                               
-            
-            
-            
-                                    <p style="font-size: 0.75rem; display: block;
-                                    margin: 0;
-                                    line-height: 0%;" >
-                                        Pori is more than just a festival destination; it's a vibrant coastal town with plenty to explore beyond the
-                    music. <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-80 200-360l56-56 184 183v-647h80v647l184-184 56 57L480-80Z"/></svg>
-                                    </p>
-                                
-                                    
-                               
+
+
+                            <amp-story-grid-layer  template="vertical" style="padding: 0; background: white;  align-content:center;">
+                                <div  class="outer" > 
+                        
+                        
+                        <amp-img  width="627"  
+                        
+                                  height="640"
+                        layout="responsive" 
+                        src="assets/images/beach2.webp" >
+                        </amp-img>
+                        
                                 </div>
-                
-                          
-                                <amp-img  width="720" height="450"  style="border-top: solid 0.188rem #f94923;"
-                                layout="responsive" 
-                                src="assets/images/be.jpg" >
-                           </amp-img>
-           
-                
-                            </amp-story-grid-layer>
+                                             
+                                <div class="outer" >  
+                                              
+                                              <amp-img   
+                                              width="627"
+                                                        height="640"
+                                                        layout="responsive"
+                                                        src="assets/images/beach4.webp" >
+                                                   </amp-img>
+                                        </div>
+                                
+                                            </amp-story-grid-layer>
+
+
+
+
+                                            <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
+                                                <h4 style="font-size: 0.85rem;
+                                                text-transform: uppercase;
+                                                line-height: 110%; font-weight:600; padding-left: 4%;">   
+                                                            Exploring Pori
+                                                </h4>
+                                                    
+                                                <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content;" >
+                                    
+                            
+                                                    <h4 style="line-height: 100%; font-size:0.875rem;
+                                                    letter-spacing: 0.7px;
+                                                    text-transform: uppercase; font-weight:600;">   
+                                                                 
+                                                                 Pori is more than just a festival destination; it's a vibrant coastal town with plenty to explore beyond the
+                                                                 music. 
+                                                    </h4>
+
+                                                    
+                                                                 
+                                                            
+                            </div>
+                                                            
+                        
+                                            </amp-story-grid-layer>
+                                
+                        
+
                 
                             
      
@@ -1530,13 +1728,18 @@ privacy, especially if you're traveling in a group. <br>
     
        
     
-                <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
-    
-                    
+                <amp-story-grid-layer template="vertical" style="align-content:end; padding: 0; ">
+       
+                    <h3 style="font-size: 4rem;
+                    position: absolute;
+                    top: 75%; font-size: 2.375rem; padding-left: 4%; position: absolute;
+                    top: 80%; text-shadow: 0 0 .2em rgba(0,0,0,.5);">Yyteri Beach</h3>
 
-                          
+
+
                     <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content;" >
         
+                        
 
 
                         <h4 style="line-height: 100%; font-size:0.875rem;
@@ -1549,9 +1752,7 @@ privacy, especially if you're traveling in a group. <br>
                                 
 </div>
                                 
-<h3 style="font-size: 4rem;
-position: absolute;
-top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);">gfdshfghs</h3>
+
                 </amp-story-grid-layer>
     
     
@@ -1588,7 +1789,7 @@ top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);
                                             
 
 
-                                            <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content; top: 86%; position: absolute;" >
+                                            <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content; top: 76%; position: absolute;" >
         
 
 
@@ -1603,8 +1804,8 @@ top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);
                         </div>
                                                         
                         <h3 style="font-size: 4rem;
-                        position: absolute;
-                        top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);">     Kirjurinluoto Park</h3>
+                        position: absolute; color: #be4321;
+                        top: 87%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);">     Kirjurinluoto Park</h3>
 
 
                             
@@ -1628,230 +1829,84 @@ top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);
 
 
 
-                           <!----  Park  Page-->
 
-                           <amp-story-page id="page-shosh">
 
-                            <amp-story-grid-layer class="video container" template="fill">
-                
-                                <amp-img  width="720" height="1280"
-                                     layout="fill" 
-                                     src="assets/images/path.webp" >
-                                </amp-img>
-                
-                                    
-                
-                            </amp-story-grid-layer>
-                
-                            
-                
-                   
-                
-                            <amp-story-grid-layer template="vertical" style="align-content:end; ">
-                
-                                
-                
-                 
-                                
-                
-                                <div class="caption-bottom-right">
-                
-            
-            
-                                    <div class="post-hero__info">
-                                        <span class="icon material-symbols-outlined">    Exploring Pori</span>
-                                      
-                                      </div>
-            
-            
-            
-                                    <h3 >
-                                        Kirjurinluoto Park
-                
-                                    </h3>
 
-                                    <div class="description" style="background: rgba(0, 0, 0, 0.52); padding: 24px;
-                                    text-align: left;
-                            
-                                    margin: 0 auto;
-                                    border-radius: 4px;">
-<span>Hevosluoto Nordic route 3 km​​ A new Nordic walking route runs in the area around the Kirjurinluoto, Hanhiluoto and Hevosluoto.</span>
+                          <!----  Halfscreen Page-->
 
-                                    </div>
-                
-                
-                
-                
+                          <amp-story-page id="page-shosh">
+
+
+
+                            <amp-story-grid-layer  template="vertical" style="padding: 0; background: white;  align-content:center;">
+                                <div  class="outer" > 
+                        
+                        
+                        <amp-img  width="627"  
+                        
+                                  height="640"
+                        layout="responsive" 
+                        src="assets/images/path2.webp" >
+                        </amp-img>
+                        
                                 </div>
-                
-                               
-                
-                            </amp-story-grid-layer>
-                
-                
+                                             
+                                <div class="outer" >  
+                                              
+                                              <amp-img   
+                                              width="627"
+                                                        height="640"
+                                                        layout="responsive"
+                                                        src="assets/images/path1.webp" >
+                                                   </amp-img>
+                                        </div>
+                                
+                                            </amp-story-grid-layer>
+
+
+
+
+                                            <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
+                                                <h4 style="font-size: 0.85rem;
+                                                text-transform: uppercase;
+                                                line-height: 110%; font-weight:600; padding-left: 4%;">   
+                                                            Exploring Pori
+                                                </h4>
+                                                    
+                                                <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content;" >
+                                    
+                            
+                                                    <h4 style="line-height: 100%; font-size:0.875rem;
+                                                    letter-spacing: 0.7px;
+                                                    text-transform: uppercase; font-weight:600;">   
+                                                                 
+                                                               A new Nordic walking route runs in the area around the Kirjurinluoto, Hanhiluoto and Hevosluoto. 
+                                                    </h4>
+
+                                                    
+                                                                 
+                                                            
+                            </div>
+                                                            
                         
+                                            </amp-story-grid-layer>
+                                
+                        
+
                 
-                
-                
+                            
+     
+                   
                         </amp-story-page>
-                
+        
+        
                         <!---- Page-->
-            
-
-                  <!----  Festival  Page-->
-
-                  <amp-story-page id="page-shosh">
-
-                    <amp-story-grid-layer class="video container" template="fill">
-        
-                        <amp-img  width="720" height="1280"
-                             layout="fill" 
-                             src="assets/images/festival.webp" >
-                        </amp-img>
-        
-                            
-        
-                    </amp-story-grid-layer>
-        
-                    
-        
-           
-        
-                    <amp-story-grid-layer template="vertical" style="align-content:end; padding: 0; ">
-        
-                        
-        
-               
-                        
-        
-                        <div class="text-box-gradient " >
-        
 
 
-<span class="text-box-subtitle">   
-                             
-            Exploring Pori
-        </span>
-
-        <h3  class="text-box-title" >
-                                      Pori Jazz Festival
-              
-                                  </h3>
-                            <p  >
-                             
-                                One of the oldest and most prestigious jazz festivals in Europe, attracting international artists and a diverse crowd.
-
-                            </p>
-                            
-        
-                        </div>
-        
-                       
-        
-                    </amp-story-grid-layer>
-        
-        
-                
-                       
-        
-                    <amp-story-grid-layer template="vertical" style="align-content:end; ">
-        
-                        
-        
-                    
-        
-                       
-        
-                    </amp-story-grid-layer>
-        
-        
-        
-                </amp-story-page>
 
 
-        
-                <!---- Page-->
 
 
-      
-                  <!----  Festival  Page-->
-
-                  <amp-story-page id="page-shosh">
-
-                    <amp-story-grid-layer class="video container" template="fill">
-        
-                        <amp-img  width="720" height="1280"
-                             layout="fill" 
-                             src="assets/images/90.png" >
-                        </amp-img>
-        
-                            
-        
-                    </amp-story-grid-layer>
-        
-                    
-        
-           
-        
-                    <amp-story-grid-layer template="vertical" style="align-content:end; ">
-        
-                        
-        
-               
-                        
-        
-                        <div class="caption-bottom-right">
-        
-    
-    
-                            <div class="post-hero__info">
-                                <span class="icon material-symbols-outlined"> Exploring Pori</span>
-                              
-                              </div>
-    
-    
-    
-                            <h3 >
-                                Pori Jazz Festival
-        
-                            </h3>
-        
-        <br> 
-                            <p data-text-background-color="rgba(191, 0, 114, 0.70)" style="font-size: 1rem;">
-                             
-                                One of the oldest and most prestigious jazz festivals in Europe, attracting international artists and a diverse crowd.
-                                ☺️
-
-                            </p>
-                          
-                        
-                        </div>
-        
-                       
-        
-                    </amp-story-grid-layer>
-        
-        
-                
-                       
-        
-                    <amp-story-grid-layer template="vertical" style="align-content:end; ">
-        
-                        
-        
-                    
-        
-                       
-        
-                    </amp-story-grid-layer>
-        
-        
-        
-                </amp-story-page>
-
-
-        
-                <!---- Page-->
 
                                     
 
@@ -1862,23 +1917,30 @@ top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);
 
                   <amp-story-page id="page-shosh">
 
-                    <amp-story-grid-layer  template="vertical" style="padding: 0; background-image: linear-gradient(rgba(243, 240, 237, 1), rgba(243, 240, 237, 1)) ;">
+                    <amp-story-grid-layer  template="fill" style="padding: 0; background-image: linear-gradient(rgba(243, 240, 237, 1), rgba(243, 240, 237, 1)) ;">
         
                         <amp-img  width="720" height="500"  style="border-bottom: solid 0.188rem black;"
                              layout="responsive" 
                              src="assets/images/couple.png" >
                         </amp-img>
+
+
+                        
         
                            
+          
+                  
+
+                   
+        
+                    </amp-story-grid-layer>
+        
+                    
+                    <amp-story-grid-layer template="vertical" style="align-content:end; padding: 0; ">
+                        
                         <div class="text-box" >
         
     
-    
-                       
-    
-    
-    
-                     
      
 
                             <blockquote >
@@ -1906,14 +1968,7 @@ top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);
                         
                         </div>
       
-                  
-
-                   
-        
                     </amp-story-grid-layer>
-        
-                    
-        
         
         
         
@@ -1933,6 +1988,79 @@ top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);
 
 
 
+                          <!----  Halfscreen Page-->
+
+                          <amp-story-page id="page-shosh">
+
+
+
+                            <amp-story-grid-layer  template="vertical" style="padding: 0; background: white;  align-content:center;">
+                                <div  class="outer" > 
+                        
+                        
+                        <amp-img  width="720"  
+                        
+                                  height="640"
+                        layout="responsive" 
+                        src="assets/images/taxi.jpg" >
+                        </amp-img>
+                        
+                                </div>
+                                             
+                                <div class="outer" >  
+                                              
+                                              <amp-img   
+                                              width="720"
+                                                        height="640"
+                                                        layout="responsive"
+                                                        src="assets/images/bus.webp" >
+                                                   </amp-img>
+                                        </div>
+                                
+                                            </amp-story-grid-layer>
+
+
+
+
+                                            <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
+                                                <h4 style="font-size: 0.85rem;
+                                                text-transform: uppercase;
+                                                line-height: 110%; font-weight:600; padding-left: 4%;">   
+                                                          Local Tips for Festival Goers
+                                                </h4>
+                                                    
+                                                <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content;" >
+                                    
+                            
+                                                    <h4 style="line-height: 100%; font-size:0.875rem;
+                                                    letter-spacing: 0.7px;
+                                                    text-transform: uppercase; font-weight:600;">   
+                                                                 
+                                                                 Pori has a good local bus network, especially during the festival. Shuttle services may be provided for attendees.
+
+                                                  
+                                                  
+                                                            </h4>
+
+                                                    
+                                                                 
+                                                            
+                            </div>
+                                                            
+                        
+                                            </amp-story-grid-layer>
+                                
+                        
+
+                
+                            
+     
+                   
+                        </amp-story-page>
+        
+        
+                        <!---- Page-->
+
 
 
 
@@ -1946,79 +2074,88 @@ top: 75%; font-size: 2.375rem; padding: 4%;text-shadow: 0 0 .2em rgba(0,0,0,.5);
 
 
 
+        <!----  Accommodation  Page-->
 
+        <amp-story-page id="page-shosh">
 
-                      <!----  Transport  Page-->
+            <amp-story-grid-layer class="video container" template="fill">
 
-                      <amp-story-page id="page-shosh">
+                <amp-img  width="720" height="1280"
+                layout="fill" 
+                src="assets/images/Finnish-Salmon-Soup-Lohikeitto-PIC1-Jan2021-680x900.webp" >
+           </amp-img>
 
-                        <amp-story-grid-layer class="video container" template="fill">
-            
-                            <amp-img  width="720" height="1280"
-                                 layout="fill" 
-                                 src="assets/images/bus.jpg" >
-                            </amp-img>
-            
-                                
-            
-                        </amp-story-grid-layer>
-            
-                        
-            
                
-         
-            
-            
+
                     
-                           
+
+            </amp-story-grid-layer>
+
             
-                        <amp-story-grid-layer template="vertical" style="align-content:end; ">
-            
-                            
-            
-                            <p style="position: absolute;
-                            bottom: 62%;
-                            width: 100%;
-                            padding: 5% 7% 17% 5%;
-                            font-weight: 400;">
-                                <span data-text-background-color="crimson">
-                                    Pori has a good local bus network, especially during the festival. Shuttle services may be provided for attendees.
+
+   
+
+            <amp-story-grid-layer template="vertical" style="align-content:center; padding:0; ">
+                <div class="slide-caption" style="padding: 4%; background-color: rgba(249, 73, 35, 0.7); width: max-content; ">
+
+                    <h6  style="font-size: 1.875rem;
+                    letter-spacing: 0.9px;
+                    text-transform: uppercase;">
+                     DINING
+
+                    </h6>
 
 
-                                </span>
-                            </p>
+
+
+                </div>
+
+               
+
+            </amp-story-grid-layer>
+
+            
+
+
+            <amp-story-grid-layer template="vertical" style="align-content:end; padding:0;    ">
+                
+
+                    <div class="caption-bottom-right" style=" display:grid;  padding-bottom: 20px; padding-top: 4%;">
                             
-            
-                            <div class="caption-bottom-right">
-            
-        
-        
-                                <div class="post-hero__info">
-                                    <span class="icon material-symbols-outlined"> Local Tips for Festival Goers</span>
-                                  
-                                  </div>
-        
-        
-        
-                                <h3 >
-                                    Public Transport
-            
-                                </h3>
-            
-            
-            
-            
-                            </div>
-            
-                           
-            
-                        </amp-story-grid-layer>
-            
-            
-            
-                    </amp-story-page>
-            
-                    <!---- Page-->
+                        
+                        
+                        <div class="post-hero__info" style="place-self: center; width: 12rem; padding: 20px;
+  background-color: rgba(0, 0, 0, 0.52);">
+                            <span class="icon material-symbols-outlined" style="display: block;
+  text-align: center;">    Local Tips for Festival Goers</span>
+                          
+                          
+
+                        <p style="text-align: center; font-size:1rem;">
+                            Enjoy local Finnish cuisine at restaurants like Ravintola Bucco (Italian-Finnish fusion) or Raatihuoneen Kellari (traditional Finnish dishes).
+
+    
+                        </p>
+    
+    
+                    
+                    </div>
+
+                </div>
+
+               
+
+            </amp-story-grid-layer>
+
+
+
+
+        </amp-story-page>
+
+        <!---- Page-->
+
+
+
 
 
 
@@ -2477,70 +2614,7 @@ letter-spacing: -.24px;">Source: VeryFinnishProblems </span>
 
                  
 
-                      <!----  Festival3  Page-->
 
-                      <amp-story-page id="page-shosh">
-
-                        <amp-story-grid-layer class="video container" template="fill">
-            
-                            <amp-img  width="720" height="1280"
-                                 layout="fill" 
-                                 src="assets/images/Sting.jpg" >
-                            </amp-img>
-            
-                                
-            
-                        </amp-story-grid-layer>
-            
-                        
-            
-               
-            
-                        <amp-story-grid-layer template="vertical" style="align-content:end; ">
-            
-                            
-            
-                   
-                            
-            
-                            <div class="caption-bottom-right">
-            
-        
-        
-                                <div class="post-hero__info">
-                                    <span class="icon material-symbols-outlined"> Exploring Pori</span>
-                                  
-                                  </div>
-        
-        
-        
-                                <h3 >
-                                    Pori Jazz Festival
-            
-                                </h3>
-            
-            
-            
-            
-                            </div>
-            
-                           
-            
-                        </amp-story-grid-layer>
-            
-            
-                    
-            
-            
-            
-            
-                    </amp-story-page>
-
-
-
-
-            
-                    <!---- Page-->
 
 
 
@@ -2554,7 +2628,7 @@ letter-spacing: -.24px;">Source: VeryFinnishProblems </span>
             
                             <amp-img  width="720" height="1280"
                                  layout="fill" 
-                                 src="assets/images/weather.jpg" >
+                                 src="assets/images/weather.webp" >
                             </amp-img>
             
                                 
