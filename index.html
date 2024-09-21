@@ -98,7 +98,10 @@
         .gradient {
             background: linear-gradient(to bottom, transparent 0%, transparent 34%, black 100%);
         }
-
+.gradient_flat {
+ 
+  background-color: rgba(0, 0, 0, 0.52);
+}
 
   
 
@@ -386,11 +389,35 @@ line-height: 0.5;     color: #ed3833;
 
    /* text-box */
 
+.text-box-wrapper .meta {
+    font-size: 0.85rem;
+                                                text-transform: uppercase;
+                                                line-height: 110%; font-weight:600; padding-left: 4%; padding-bottom: 10px;
+
+
+}
+
+
+.text-box-wrapper h4 {
+    line-height: 100%; font-size:0.875rem;
+                                                    letter-spacing: 0.7px;
+                                                    text-transform: uppercase; font-weight:600;
+}
+
+
+.text-box-wrapper.center {  
+
+display:grid;  padding-bottom: 20px; padding-top: 4%;
+                
+                place-self: center; width: 12rem;
+            }
+
+
+
    .text-box { 
-                        padding-left: 4%;
-                        padding-right: 4%;
-                     color:black;
-                     padding-top: 30px;
+                        padding-left: 10px;
+                   
+                     padding-top: 20px;
                      
                     }
 
@@ -438,6 +465,7 @@ blockquote span {
   font-style: italic;
   font-weight: 500;
   line-height: 140%;
+  color: white;
 }
 
 
@@ -857,7 +885,7 @@ footer a {
 .outer {
 
 
-height: 320px; /* adjust to your needs */
+height: 365px; /* adjust to your needs */
         display: flex;
         flex-wrap: wrap;
         -webkit-box-align: center;
@@ -1865,20 +1893,18 @@ privacy, especially if you're traveling in a group. <br>
 
 
 
+    <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
 
-                                            <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
-                                                <h4 style="font-size: 0.85rem;
-                                                text-transform: uppercase;
-                                                line-height: 110%; font-weight:600; padding-left: 4%;">   
+
+        <div class="text-box-wrapper"> 
+  <h4 class="meta" >   
                                                             Exploring Pori
                                                 </h4>
                                                     
                                                 <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content;" >
                                     
                             
-                                                    <h4 style="line-height: 100%; font-size:0.875rem;
-                                                    letter-spacing: 0.7px;
-                                                    text-transform: uppercase; font-weight:600;">   
+                                                    <h4 >   
                                                                  
                                                                A new Nordic walking route runs in the area around the Kirjurinluoto, Hanhiluoto and Hevosluoto. 
                                                     </h4>
@@ -1888,7 +1914,7 @@ privacy, especially if you're traveling in a group. <br>
                                                             
                             </div>
                                                             
-                        
+                        </div>
                                             </amp-story-grid-layer>
                                 
                         
@@ -1937,22 +1963,29 @@ privacy, especially if you're traveling in a group. <br>
         
                     
                     <amp-story-grid-layer template="vertical" style="align-content:end; padding: 0; ">
+
+                        <div class="text-box-wrapper">  
+
+                        <h4 class="meta" style="color: black"> PEOPLE</h4>  
                         
-                        <div class="text-box" >
+                        <div class="text-box gradient_flat" >
         
     
      
 
                             <blockquote >
+                            
                                 <span>
+                               
                                 <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="rgb(255, 115, 0)"><path d="m228-240 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T458-480L320-240h-92Zm360 0 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T818-480L680-240h-92ZM320-500q25 0 42.5-17.5T380-560q0-25-17.5-42.5T320-620q-25 0-42.5 17.5T260-560q0 25 17.5 42.5T320-500Zm360 0q25 0 42.5-17.5T740-560q0-25-17.5-42.5T680-620q-25 0-42.5 17.5T620-560q0 25 17.5 42.5T680-500Zm0-60Zm-360 0Z"/></svg>
+                              
+                            
                             </span>
                                 
-                                    
-                                    <p>“Me and my team have no clue how what to do about big data.”</p>
-                              <p>“I feel like I’m supposed to use Twitter, but I just can’t get into it.”</p>
-                              <p>“I feel like there are a zillion digital opportunities but I have no idea where to start.”</p>
-
+                                    <p>How many of you speak English?” asked Simply Red frontman Mick Hucknall, the British soul and pop band .
+                                        Thousands in the crowd raised their hands and screamed.
+                                        “Wow! That doesn’t happen in England if I would ask how many of you speak Finnish.”
+                                        </p>
                               <br>
                             <p style="font-size: 12px;
                             font-weight: 500;
@@ -1961,10 +1994,26 @@ privacy, especially if you're traveling in a group. <br>
                         
                               </blockquote>
 
-                             
+                        
+                        </div>
+                    </div>
+      
+                    </amp-story-grid-layer>
 
 
-                              <hr>
+
+
+                    <amp-story-grid-layer template="vertical" style="align-content:start; padding: 0; ">
+                        
+                        <div class="text-box " style="background-color: rgba(249, 73, 35, 0.7);
+  width: max-content; text-transform: uppercase; padding: 20px 10px 4% 20px; color: black;">
+        
+    
+     <h4 class="meta">If you
+        <br>are new to
+        <br> Finland
+     </h4>
+
                         
                         </div>
       
@@ -2023,10 +2072,11 @@ privacy, especially if you're traveling in a group. <br>
 
 
                                             <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
-                                                <h4 style="font-size: 0.85rem;
-                                                text-transform: uppercase;
-                                                line-height: 110%; font-weight:600; padding-left: 4%;">   
-                                                          Local Tips for Festival Goers
+
+
+                                                <div class="text-box-wrapper">  
+                                                <h4 class="meta">   
+                                                          Local Tips <br> for Festival Goers
                                                 </h4>
                                                     
                                                 <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content;" >
@@ -2046,7 +2096,7 @@ privacy, especially if you're traveling in a group. <br>
                                                                  
                                                             
                             </div>
-                                                            
+                        </div>                            
                         
                                             </amp-story-grid-layer>
                                 
@@ -2074,7 +2124,7 @@ privacy, especially if you're traveling in a group. <br>
 
 
 
-        <!----  Accommodation  Page-->
+        <!----  Dining  Page-->
 
         <amp-story-page id="page-shosh">
 
@@ -2117,38 +2167,44 @@ privacy, especially if you're traveling in a group. <br>
             
 
 
-            <amp-story-grid-layer template="vertical" style="align-content:end; padding:0;    ">
-                
+            <amp-story-grid-layer template="vertical" style="align-content:start; padding:0;    ">
+                <div class="text-box-wrapper center" > 
+                    
+                    <h4 class="meta" style="
+  text-align: center;"> Local Tips <br> for Festival Goers</h4>
 
-                    <div class="caption-bottom-right" style=" display:grid;  padding-bottom: 20px; padding-top: 4%;">
-                            
                         
-                        
-                        <div class="post-hero__info" style="place-self: center; width: 12rem; padding: 20px;
-  background-color: rgba(0, 0, 0, 0.52);">
-                            <span class="icon material-symbols-outlined" style="display: block;
-  text-align: center;">    Local Tips for Festival Goers</span>
-                          
+                        <div class="gradient_flat" >
+                           
                           
 
-                        <p style="text-align: center; font-size:1rem;">
+                        <p style="text-align: center; font-size:1rem; padding: 20px;">
                             Enjoy local Finnish cuisine at restaurants like Ravintola Bucco (Italian-Finnish fusion) or Raatihuoneen Kellari (traditional Finnish dishes).
 
     
                         </p>
     
     
-                    
-                    </div>
 
                 </div>
 
-               
+            </div>
 
             </amp-story-grid-layer>
 
 
+       
+       
+                <amp-story-page-outlink layout="nodisplay" 
+             
 
+                theme="custom"
+                cta-accent-element="background"
+                cta-accent-color="#f94923">
+                  <a href="https://www.raatihuoneenkellari.fi/" title="Link Description">Raatihuoneen Kellari </a>
+                </amp-story-page-outlink>
+      
+              
 
         </amp-story-page>
 
@@ -2156,98 +2212,81 @@ privacy, especially if you're traveling in a group. <br>
 
 
 
+                  <!----  Weather  Page-->
 
+                  <amp-story-page id="page-shosh">
 
-
-
-
-                      <!----  Dining  Page-->
-
-                      <amp-story-page id="page-shosh">
-
-                        <amp-story-grid-layer class="video container" template="fill">
-            
-                            <amp-img  width="720" height="1280"
-                                 layout="fill" 
-                                 src="assets/images/food.webp" >
-                            </amp-img>
-            
-                                
-            
-                        </amp-story-grid-layer>
-            
+                    <amp-story-grid-layer  template="vertical" style="padding: 0; background: white;  align-content:center;">
+                        <div  class="outer" > 
+                
+                
+                <amp-img  width="720"  
+                
+                          height="640"
+                layout="responsive" 
+                src="assets/images/weather2.jpg" >
+                </amp-img>
+                
+                        </div>
+                                     
+                        <div class="outer" >  
+                                      
+                                      <amp-img   
+                                      width="720"
+                                                height="640"
+                                                layout="responsive"
+                                                src="assets/images/weather.webp" >
+                                           </amp-img>
+                                </div>
                         
-            
-               
-            
-                        <amp-story-grid-layer template="vertical" style="align-content:end; ">
-            
+                                    </amp-story-grid-layer>
+        
+                                    <amp-story-grid-layer template="vertical" style="align-content:center; padding: 0; ">
+
+
+                                        <div class="text-box-wrapper">  
+                                        <h4 class="meta" >   
+                                                 Weather
+                                        </h4>
+                                            
+                                        <div class="text-box-gradient " style="background-color: rgba(249, 73, 35, 0.7); width: fit-content;" >
                             
-            
-                   
-                            
-            
-                            <div class="caption-bottom-right">
-            
-        
-        
-                                <div class="post-hero__info">
-                                    <span class="icon material-symbols-outlined"> Local Tips for Festival Goers</span>
-                                  
-                                  </div>
-        
-        
-        
-                                <h3 >
-                                  Dining
-            
-                                </h3>
-            
-            
-            
-            
-                            </div>
-            
-                           
-            
-                        </amp-story-grid-layer>
-            
-            
                     
-                           
-            
-                        <amp-story-grid-layer template="vertical" style="align-content:end; ">
-            
-                            
-            
-                            <p style="position: absolute;
-                            bottom: 62%;
-                            width: 100%;
-                            padding: 5% 7% 17% 5%;
-                            font-weight: 400;">
-                                <span data-text-background-color="crimson">
-                                    Enjoy local Finnish cuisine at restaurants like Ravintola Bucco (Italian-Finnish fusion) or Raatihuoneen Kellari (traditional Finnish dishes).
+                                            <h4 style="line-height: 100%; font-size:0.875rem;
+                                            letter-spacing: 0.7px;
+                                            text-transform: uppercase; font-weight:600;">   
+                                                         
+                                                         Finnish summer weather can be unpredictable, so pack layers and rain gear.
+                                          
+                                                    </h4>
 
+                                            
+                                                         
+                                                    
+                    </div>
+                </div>                            
+                
+                                    </amp-story-grid-layer>
+                         
+        
+           
+        
+        
+        
 
-                                </span>
-                            </p>
-                            
-            
-                      
-            
-                           
-            
-                        </amp-story-grid-layer>
-            
-            
-            
-                    </amp-story-page>
+        
+        
+        
+                </amp-story-page>
 
 
 
 
-            
-                    <!---- Page-->
+        
+                <!---- Page-->
+
+
+
 
 
 
@@ -2620,101 +2659,7 @@ letter-spacing: -.24px;">Source: VeryFinnishProblems </span>
 
 
 
-                      <!----  Weather  Page-->
-
-                      <amp-story-page id="page-shosh">
-
-                        <amp-story-grid-layer class="video container" template="fill">
-            
-                            <amp-img  width="720" height="1280"
-                                 layout="fill" 
-                                 src="assets/images/weather.webp" >
-                            </amp-img>
-            
-                                
-            
-                        </amp-story-grid-layer>
-            
-                        
-            
-               
-            
-                        <amp-story-grid-layer template="vertical" style="align-content:end; ">
-            
-                            
-            
-                            <p style="position: absolute;
-                            bottom: 62%;
-                            width: 100%;
-                            padding: 5% 7% 17% 5%;
-                            font-weight: 400;">
-                                <span data-text-background-color="crimson">
-                                Finnish summer weather can be unpredictable, so pack layers and rain gear.
-
-                                </span>
-                            </p>
-                            
-            
-                            <div class="caption-bottom-right">
-            
-        
-        
-                                <div class="post-hero__info">
-                                    <span class="icon material-symbols-outlined"> Local Tips for Festival Goers</span>
-                                  
-                                  </div>
-        
-        
-        
-                                <h3 >
-                                    Weather
-            
-                                </h3>
-            
-            
-            
-            
-                            </div>
-            
-                           
-            
-                        </amp-story-grid-layer>
-            
-            
-                    
-                           
-                        <amp-story-grid-layer template="vertical" style="align-content:end; ">
-            
-                            
-            
-                            <p style="position: absolute;
-                            bottom: 62%;
-                            width: 100%;
-                            padding: 5% 7% 17% 5%;
-                            font-weight: 400;">
-                                <span data-text-background-color="crimson">
-                                Finnish summer weather can be unpredictable, so pack layers and rain gear.
     
-                                </span>
-                            </p>
-                            
-           
-            
-                           
-            
-                        </amp-story-grid-layer>
-    
-            
-            
-            
-                    </amp-story-page>
-
-
-
-
-            
-                    <!---- Page-->
-
 
 
                        
