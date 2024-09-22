@@ -408,7 +408,7 @@ line-height: 0.5;     color: #ed3833;
 
 .text-box-wrapper.center {  
 
-display:grid;  padding-bottom: 20px; padding-top: 4%;
+display:grid;  padding-bottom: 20px; 
                 
                 place-self: center; width: 12rem;
             }
@@ -507,8 +507,8 @@ blockquote span {
             font-weight: 500;
         }
 
-        .logo {
-            background-image: url('assets/logo.png');
+        .logo.top {
+            background-image: url('assets/images/2025.png');
   background-repeat: no-repeat;
   background-size: 2.25rem 2.25rem;
   height: 2.25rem;
@@ -522,8 +522,29 @@ blockquote span {
 
         }
 
+
+.logo.bottom{
+
+    background-image: url('assets/images/2025.png');
+  background-repeat: no-repeat;
+  background-size: 2.25rem 2.25rem;
+  height: 2.25rem;
+  width: 2.25rem;
+
+ 
+  position: absolute;
+  z-index: 9999;
+  bottom:0;
+  right: 0%;
+}
+
+
+
+
+
+
         .logo-last {
-            background-image: url('assets/logo.png');
+            background-image: url('assets/images/2025.png');
             background-repeat: no-repeat;
             background-size: 4.25rem 4.25rem;
             height: 4.25rem;
@@ -961,7 +982,7 @@ flex-grow: 1;
 
         
 
-                <div class="logo"></div>
+                <div class="logo bottom"></div>
 
             </amp-story-grid-layer>
 
@@ -1249,7 +1270,7 @@ flex-grow: 1;
                             
                             <span>
                               
-                              <amp-img src="assets/logo-footer.png" class="hs-image-widget " width="350" height="44" style="max-width: 100%; height: auto;"  >
+                              <amp-img src="assets/images/2025.png" class="hs-image-widget " width="350" height="44" style="max-width: 100%; height: auto;"  >
                             </span>
                        
                              
@@ -1322,7 +1343,7 @@ flex-grow: 1;
                                  
                             
                               
-                                            
+                    <div class="logo bottom"></div>
                             
                                     
                             
@@ -1965,7 +1986,7 @@ privacy, especially if you're traveling in a group. <br>
 
                         <div class="text-box-wrapper">  
 
-                        <h4 class="meta" style="color: black"> PEOPLE</h4>  
+                   
                         
                         <div class="text-box gradient_flat" >
         
@@ -1976,7 +1997,7 @@ privacy, especially if you're traveling in a group. <br>
                             
                                 <span>
                                
-                                <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="rgb(255, 115, 0)"><path d="m228-240 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T458-480L320-240h-92Zm360 0 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T818-480L680-240h-92ZM320-500q25 0 42.5-17.5T380-560q0-25-17.5-42.5T320-620q-25 0-42.5 17.5T260-560q0 25 17.5 42.5T320-500Zm360 0q25 0 42.5-17.5T740-560q0-25-17.5-42.5T680-620q-25 0-42.5 17.5T620-560q0 25 17.5 42.5T680-500Zm0-60Zm-360 0Z"/></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#be4321"><path d="m228-240 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T458-480L320-240h-92Zm360 0 92-160q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 23-5.5 42.5T818-480L680-240h-92ZM320-500q25 0 42.5-17.5T380-560q0-25-17.5-42.5T320-620q-25 0-42.5 17.5T260-560q0 25 17.5 42.5T320-500Zm360 0q25 0 42.5-17.5T740-560q0-25-17.5-42.5T680-620q-25 0-42.5 17.5T620-560q0 25 17.5 42.5T680-500Zm0-60Zm-360 0Z"/></svg>
                               
                             
                             </span>
@@ -2003,19 +2024,20 @@ privacy, especially if you're traveling in a group. <br>
 
 
                     <amp-story-grid-layer template="vertical" style="align-content:start; padding: 0; ">
-                        
-                        <div class="text-box " style="background-color: rgba(249, 73, 35, 0.7);
-  width: max-content; text-transform: uppercase; padding: 20px 10px 4% 20px; color: black;">
+                        <div class="text-box " style="padding-bottom: 10px; background-color: #be4321;
+   width: 85px;">  
+                        <div  style="  color: white;  padding-bottom: 0.313rem;">
         
     
-     <h4 class="meta">If you
-        <br>are new to
-        <br> Finland
+     <h4 class="mekta" style="line-height: 100%; ">New  to <br>
+        Finland?
      </h4>
 
                         
                         </div>
-      
+                        <span style="color:black; font-size: 0.75rem;">PEOPLE</span>
+
+                    </div>
                     </amp-story-grid-layer>
         
         
@@ -2169,15 +2191,14 @@ privacy, especially if you're traveling in a group. <br>
             <amp-story-grid-layer template="vertical" style="align-content:start; padding:0;    ">
                 <div class="text-box-wrapper center" > 
                     
-                    <h4 class="meta" style="
-  text-align: center;"> Local Tips <br> for Festival Goers</h4>
+                   
 
                         
                         <div class="gradient_flat" >
                            
                           
 
-                        <p style="text-align: center; font-size:1rem; padding: 20px;">
+                        <p style="text-align: center; font-size:1rem; padding-bottom: 0.938rem; padding: 0.313rem;line-height: 100%; padding-top: 0.938rem;">
                             Enjoy local Finnish cuisine at restaurants like Ravintola Bucco (Italian-Finnish fusion) or Raatihuoneen Kellari (traditional Finnish dishes).
 
     
