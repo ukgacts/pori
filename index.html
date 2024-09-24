@@ -13,12 +13,12 @@
 
 <meta name="description" content="Connect with the bass music community and stay inspired with Bass Scene Magazine."> 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://bassscene.co.uk">
+<meta property="og:url" content="https://bassscene.co.uk/porijazz">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FOLLOW YOURNOSE TO PORI!">
 <meta property="og:description" content="From intimate gigs in cozy venues to massive outdoor performances at Kirjurinluoto Park, the festival's eclectic lineup offers something for everyone.
 ">
-<meta property="og:image" content="https://bassscene.co.uk/assets/1200X630.png">  
+<meta property="og:image" content="https://bassscene.co.uk/assets/porijazz/og.png">  
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -951,11 +951,25 @@ flex-grow: 1;
 /* Halfscreen--end */
 
 
+/* source-btn */
+.source-btn {
+
+    border-radius: 3px;
+  padding: 0.5rem;
+  display: grid;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.7;
+  animation: play-button-fly-in 0.4s cubic-bezier(0.4,0,0.2,1);
+    animation-duration: 0.4s;
+
+}
+.right {
+    place-self: self-end right;
+}
 
 
-
-
-
+/* source-btn--end */
 
 
 
@@ -2290,10 +2304,43 @@ privacy, especially if you're traveling in a group. <br>
             </amp-story-grid-layer>
 
             <amp-story-grid-layer template="vertical">
+
+
+
+
+
                 <div class="logo-last"></div>
 
 
             </amp-story-grid-layer>
+
+
+
+            <amp-story-grid-layer template="thirds">
+
+                <a href="https://www.youtube.com/hashtag/porijazz" role="link" 
+                grid-area="lower-third"
+                 data-tooltip-icon="assets/images/youtube-icon.png"
+                  data-tooltip-text="#porijazz" 
+                  class="source-btn right"                  
+                  data-tooltip-text="YouTube"
+
+                  style="margin-bottom: 20rem;"
+                 >
+                     <amp-img src="assets/images/youtube3.png" height="30px" width="60px" layout="fixed" class="center"
+                     animate-in="pulse"
+                 
+                    >
+                     </amp-img>  
+ #porijazz
+                   
+                  </span> 
+                 </a>
+        
+              </amp-story-grid-layer>
+
+
+
             <amp-story-page-outlink layout="nodisplay" theme="custom" cta-accent-element="background"
                 cta-accent-color="#000000">
                 <a href="https://www.google.com" title="Link Description">Next Story</a>
